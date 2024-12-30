@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +7,423 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/">
 </head>    
-<body>
-    
-   <div class="flex h-screen">
+<body class="bg-black text-orange-400">
+
+  <main class="h-screen w-full bg-cover bg-center bg-no-repeat" style="background-image: url('./access/bg.jpg')">
+
+    <nav class="flex justify-between items-center py-6 bg-transparent  fixed top-0 left-0 right-0 z-50 ">
+        <img src="./access/footer-logo_x74@2x.png" alt="image on screen">
+        <ul class="flex space-x-4 ">
+            <li><a href="#Home" class="text-orange-400 capitalize font-bold hover:text-white">Home</a></li>
+            <li><a href="#cosmetics" class="text-orange-400 capitalize font-bold hover:text-white">hair cosmetics</a></li>
+            <li><a href="#new-arrival" class="text-orange-400 capitalize font-bold hover:text-white">new arrival</a></li>
+            <li><a href="#discount" class="text-orange-400 capitalize font-bold hover:text-white">discount</a></li>
+            <li><a href="#features" class="text-orange-400 capitalize font-bold hover:text-white">features</a></li>
+            <li><a href="#Contact" class="text-orange-400 capitalize font-bold hover:text-white">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container mx-auto p-12 pt-6 md:p-6 lg:p-12 xl:p-24 text-center">
+        <h2 class="text-5xl font-bold text-orange-400 capitalize">front lace | full lace</h2>
+        <h1 class="text-5xl font-bold text-white capitalize pt-4">hand making styles</h1>
+        <h2 class="text-5xl font-bold text-orange-400 uppercase pt-4 pb-4">upto  75% off</h2>
+        <button class=" bg-orange-400  pt-8 text-white hover:bg-blue-700 font-bold p-4 rounded  capitalize ">shop now</button>
+
+    </div>
+</main>
+
+
+
+    <div class="flex h-screen">
    
-
-    <div class="w-1/2  bg-black text-white p-4">
-        <h2 class="text-2xl  font-bold mb-4 text-center uppercase">long and style hairstyle</h2>
-        <p class="text-gray-400 mb-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia aperiam earum velit aliquid, maiores ad doloremque reprehenderit id dolores non pariatur voluptatibus esse nam consequatur necessitatibus inventore veritatis quibusdam suscipit error! Necessitatibus illum quos, tempore deserunt excepturi 
-            nulla porro laudantium voluptatem vero qui distinctio ex totam veritatis eum placeat?</p>
-            <button class=" bg-blue-400 hover:bg-white-700 font-bold p-4 rounded">learn more</button>
-    </div>
-
-    <div class="w-1/2">
-        <img src="./access/side.jpg" alt="image on screen" class="object-cover h-full w-full">
-    </div>
-   </div> 
-
+        <div class="w-1/2  bg-black  p-12">
+            <h2 class="text-2xl  font-bold mb-4 text-center uppercase">long and style hairstyle</h2>
+            <p class="mb-8 p-12 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia aperiam earum velit aliquid, maiores ad doloremque reprehenderit id dolores non pariatur voluptatibus esse nam consequatur necessitatibus inventore veritatis quibusdam suscipit error! Necessitatibus illum quos, tempore deserunt excepturi 
+                nulla porro laudantium voluptatem vero qui distinctio ex totam veritatis eum placeat?</p>
+                <button class=" bg-blue-400 hover:bg-white-700 font-bold p-4 rounded">learn more</button>
+        </div>
     
-  </body>
-  </html>  
+        <div class="w-1/2">
+            <img src="./access/side.jpg" alt="image on screen" class="object-cover h-full w-full">
+        </div>
+
+       </div> 
+    
+        
+       <div class=" flex  flex-col items-center justify-center mt-8"  id="cosmetics">
+        <h2 class="text-4xl font-bold mb-4 uppercase flex ">hair cosmetics</h2> 
+        <img src="./access/medium.png" alt="image on screen" class="">
+        <p class="w-1/2 mt-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+     </div>
+
+     <div class="flex justify-center mb-12 mt-12">
+
+        <div class="w-1/3 p-4">
+            <div><img src="./access/curl comb.png" alt="">  
+                <h3 class="text-2xl font-bold mb-2 uppercase">curl comb</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloremque laborum qui dolorem placeat odio ratione aspernatur, voluptatibus facere id. Voluptatum, sint adipisci.</p>
+               </div>
+
+               <div><img src="./access/mirror.webp" alt="">  
+                <h3 class="text-2xl font-bold mb-2 uppercase">mirror</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloremque laborum qui dolorem placeat odio ratione aspernatur, voluptatibus facere id. Voluptatum, sint adipisci.</p>
+               </div>
+
+               <div><img src="./access/hair sraigher.png" alt="">  
+                <h3 class="text-2xl font-bold mb-2 uppercase">hair sraigher</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloremque laborum qui dolorem placeat odio ratione aspernatur, voluptatibus facere id. Voluptatum, sint adipisci.</p>
+               </div>
+
+
+            </div>
+
+
+            <div class="w-1/3 p-4">
+               <img src="./access/spec-block_470x.webp" alt="">
+    
+                </div>
+
+
+                <div class="w-1/3 p-4">
+                    <div><img src="./access/icon-4_100x69.png" alt="">  
+                        <h3 class="text-2xl font-bold mb-2 uppercase"> salon chair </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloremque laborum qui dolorem placeat odio ratione aspernatur, voluptatibus facere id. Voluptatum, sint adipisci.</p>
+                       </div>
+
+                       <div><img src="./access/comb4.png" alt="">  
+                        <h3 class="text-2xl font-bold mb-2 uppercase">comb</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloremque laborum qui dolorem placeat odio ratione aspernatur, voluptatibus facere id. Voluptatum, sint adipisci.</p>
+                       </div>
+        
+                       <div><img src="./access/scissors.webp" alt="">  
+                        <h3 class="text-2xl font-bold mb-2 uppercase">scissors</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloremque laborum qui dolorem placeat odio ratione aspernatur, voluptatibus facere id. Voluptatum, sint adipisci.</p>
+                       </div>
+        
+        
+                    </div>
+          
+    
+    </div>
+
+
+       
+
+    <div class=" flex  flex-col items-center justify-center mt-8" id="new-arrival">
+        <h2 class="text-4xl font-bold mb-4 uppercase flex ">new arrival</h2> 
+        <img src="./access/medium.png" alt="image on screen" class="">
+        <p class="w-1/2 mt-4 text-center capitalize">  just in store.</p>
+     </div>
+
+     <div class="flex justify-center mb-12 mt-12">
+
+        <div class="w-1/4 p-4 bg-white-700 text-center">
+            <img src="./access/product8.jpg" alt="image on screen">
+            <h3><a href="">blonde hair wig</a></h3>
+            <h3>$500.00</h3>
+            </div>
+
+            <div class="w-1/4 p-4 bg-white-700 text-center">
+                <img src="./access/product3_5eee43e5-f099-44d5-9cb7-2aca4bb9712a.jpg" alt="image on screen">
+                <h3><a href=""> golden brown hair </a></h3>
+            <h3>$700.00</h3>
+            </div>
+
+                <div class="w-1/4 p-4 bg-white-700 text-center">
+                    <img src="./access/product13_dd958600-40d6-443d-8802-affad4dbfa69.jpg" alt="image on screen">
+                    <h3><a href=""> human hair long </a></h3>
+                    <h3>$700.00</h3>
+                </div>
+
+                    <div class="w-1/4 p-4 bg-white-700">
+                        <img src="./access/product9_d296510b-cd3b-45ad-9f09-9ac6326fcb1c.jpg" alt="image on screen">
+                        <h3><a href=""> long golden wig</a></h3>
+                        <h3>$400.00</h3>
+                    </div>
+            </div>
+
+
+            <div class=" flex  flex-col items-center justify-center mt-8" id="features">
+                <h2 class="text-4xl font-bold mb-4 uppercase flex ">other features</h2> 
+                <img src="./access/medium.png" alt="image on screen" class="">
+                <p class="w-1/2 mt-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam molestiae tenetur vel natus nesciunt, impedit, exercitationem facere, sint pariatur molestias adipisci velit ea magni cupiditate commodi similique beatae cumque officia.</p>
+             </div>
+             
+             
+             <div class="flex justify-center mb-12 mt-12">
+                 <div class="w-1/3 p-4">
+                     <img src="./access/features-1.png" alt="image on screen">
+                     <h4 class="text-2xl font-bold mb-2 capitalize mt-2">cut it as you need</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem natus earum necessitatibus voluptate cupiditate, fugiat, assumenda molestiae corporis similique aliquid dolores dicta mollitia! Voluptatibus architecto doloribus iure adipisci quam.</p>
+                 </div>
+             
+                 <div class="w-1/3 p-4">
+                     <img src="./access/features-2.png" alt="image on screen">
+                     <h4 class="text-2xl font-bold mb-2 capitalize mt-2">apply custom colors </h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem natus earum necessitatibus voluptate cupiditate, fugiat, assumenda molestiae corporis similique aliquid dolores dicta mollitia! Voluptatibus architecto doloribus iure adipisci quam.</p>
+                 </div>
+             
+                 <div class="w-1/3 p-4">
+                     <img src="./access/features-3.png" alt="image on screen">
+                     <h4 class="text-2xl font-bold mb-2 capitalize mt-2">we love to serve</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem natus earum necessitatibus voluptate cupiditate, fugiat, assumenda molestiae corporis similique aliquid dolores dicta mollitia! Voluptatibus architecto doloribus iure adipisci quam.</p>
+                 </div>
+             </div>
+                 
+
+
+             <div class=" flex  flex-col items-center justify-center mt-8">
+                <h2 class="text-4xl font-bold mb-4 uppercase flex ">new arrival</h2> 
+                <img src="./access/medium.png" alt="image on screen" class="">
+                <p class="w-1/2 mt-4 text-center capitalize">  just in store.</p>
+             </div>
+            
+            
+            <div class="carousel relative w-full overflow-hidden flex justify-center items-center">
+                <div class="carousel-inner relative w-full h-full overflow-hidden flex flex-wrap justify-center">
+                 
+                  <div class="carousel-item w-1/4 h-full p-4 text-center relative">
+                    <img src="./access/image1.jpg" alt="Image 1" class="w-full h-full object-cover ">
+                    <div class=" bg-white  text-2xl capitalize"> <h3><a href="">blonde hair wig</a></h3>
+                      <h3>$500.00</h3>
+                    </div>
+                  </div>
+            
+            
+                  <div class="carousel-item w-1/4 h-full p-4 text-center">
+                    <img src="./access/image2.jpg" alt="Image 2" class="w-full h-full object-cover">
+                   <div class=" bg-white  text-2xl capitalize"><h3><a href="">blonde hair wig</a></h3>
+                    <h3>$500.00</h3></div>
+                  </div>
+            
+                  <div class="carousel-item w-1/4 h-full p-4 text-center">
+                    <img src="./access/image3.jpg" alt="Image 3" class="w-full h-full object-cover">
+                   <div class=" bg-white  text-2xl capitalize"> <h3><a href="">blonde hair wig</a></h3>
+                    <h3>$500.00</h3></div>
+                  </div>
+            
+                  <div class="carousel-item w-1/4 h-full p-4 text-center">
+                    <img src="./access/image4.jpg" alt="Image 4" class="w-full h-full object-cover">
+            
+                    <div class=" bg-white  text-2xl capitalize"> <h3><a href="">blonde hair wig</a></h3>
+                    <h3>$500.00</h3></div>
+                  </div>
+            
+                  <div class="carousel-item w-1/4 h-full p-4 text-center">
+                    <img src="./access/image5.jpg" alt="Image 4" class="w-full h-full object-cover">
+                    <div class=" bg-white  text-2xl capitalize"> <h3><a href="">blonde hair wig</a></h3>
+                      <h3>$500.00</h3></div>
+                  </div>
+            
+                  <div class="carousel-item w-1/4 h-full p-4 text-center">
+                    <img src="./access/image6.jpg" alt="Image 4" class="w-full h-full object-cover">
+                    <div class=" bg-white  text-2xl capitalize"> <h3><a href="">blonde hair wig</a></h3>
+                      <h3>$600.00</h3></div>
+                  </div>
+            
+                  <div class="carousel-item w-1/4 h-full p-4 text-center">
+                    <img src="./access/image7.jpg" alt="Image 4" class="w-full h-full object-cover">
+                    <div class=" bg-white  text-2xl capitalize"> <h3><a href="">blonde hair wig</a></h3>
+                      <h3>$500.00</h3></div>
+                  </div>
+            
+                  <div class="carousel-item w-1/4 h-full p-4 text-center">
+                    <img src="./access/image8.jpg" alt="Image 4" class="w-full h-full object-cover">
+                    <div class=" bg-white  text-2xl capitalize"> <h3><a href="">blonde hair wig</a></h3>
+                      <h3>$500.00</h3></div>
+                  </div>
+            
+                  <div class="carousel-item w-1/4 h-full p-4 text-center">
+                    <img src="./access/image9.jpg" alt="Image 4" class="w-full h-full object-cover">
+                    <div class=" bg-white  text-2xl capitalize"> <h3><a href="">blonde hair wig</a></h3>
+                      <h3>$500.00</h3></div>
+                  </div>
+            
+                  <div class="carousel-item w-1/4 h-full p-4 text-center">
+                    <img src="./access/image10.jpg" alt="Image 4" class="w-full h-full object-cover">
+                    <div class=" bg-white  text-2xl capitalize"> <h3><a href="">blonde hair wig</a></h3>
+                      <h3>$500.00</h3></div>
+                  </div>
+                  
+                </div>
+                <!-- Carousel navigation -->
+                <button class="absolute top-1/2  left-0 p-4 bg-gray-200 rounded-lg prev-button">Prev</button>
+                <button class="absolute top-1/2  right-0 p-4 bg-gray-200 rounded-lg next-button">Next</button>
+              </div>
+              
+
+
+              <div class="bg-cover bg-center h-screen" style="background-image: url('./access/blog-10.jpg');"  id="discount">
+                <div class="flex items-center justify-center h-full text-white">
+                    <div class="text-center">
+                        <h2 class="text-6xl font-bold mb-4 uppercase">discount for all orders over $1000</h2>
+                        <h4 class="text-4xl mb-6" >we're at 74% of our goal</h4>
+                        <p class="text mb-8">get your unique stley today with threndy salon</p>
+                        <button  class=" bg-blue-400 hover:bg-white-700 font-bold p-4 rounded">view more</button>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class=" flex  flex-col items-center justify-center mt-8">
+                    <h2 class="text-4xl font-bold mb-4 uppercase flex ">other features</h2> 
+                    <img src="./access/medium.png" alt="image on screen" class="">
+                    <p class="w-1/2 mt-4 text-center">Lorem ipsum dolor sit amet consecteture</p>
+                 </div>
+            
+            
+                 <div class="flex justify-center mb-12 mt-12">
+                    <div class="w-1/3 p-4">
+                      <img src="./access/blog-12.jpg" alt="image on screen">  
+                        <h3 class="text-center text-2xl font-bold mb-2 capitalize mt-2 ">woman have cute curly hairstyle</h3>
+                   
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.soluta itaque quis voluptas perferendis temporibus, ut cumque fugiat nobis culpa expedita fuga eos quod alias commodi eius.</p> 
+                </div>
+            
+                <div class="w-1/3 p-4">
+                    <img src="./access/blog-11.jpg" alt="image on screen">  
+                      <h3 class="text-center text-2xl font-bold mb-2 capitalize mt-2 ">designed stole for women</h3>
+                 
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.soluta itaque quis voluptas perferendis temporibus, ut cumque fugiat nobis culpa expedita fuga eos quod alias commodi eius.</p> 
+              </div>
+            
+              <div class="w-1/3 p-4">
+                <img src="./access/blog-10.jpg" alt="image on screen">  
+                  <h3 class="text-center text-2xl font-bold mb-2 capitalize mt-2 ">perfect red lipstick for women</h3>
+             
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.soluta itaque quis voluptas perferendis temporibus, ut cumque fugiat nobis culpa expedita fuga eos quod alias commodi eius.</p> 
+            </div>
+            
+                    </div>
+                    <button  class="flex justify-center items-center  bg-blue-400  text-white p-4 rounded-lg ">view all post</button>
+            
+            
+
+
+
+
+
+
+
+            <div class="flex justify-center mb-12 mt-12" id="contact" >
+                <div class="w-1/4 p-4">
+        <img src="./access/footer-logo_x74@2x.png" alt="image on screen">
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rerum corporis, fuga exercitationem sequi atque dolorem? Commodi aut accusantium ducimus impedit repellat.</p>
+            <h3 class="capitalize font-bold mt-4">share with us</h3> 
+            <div class="flex justify-center space-x-4 mt-4 ">
+                <img src="./access/acebook.png" alt="image on screen" class="w-10 h-10">
+                <img src="./access/whasap.jpg" alt="image on screen" class="w-10 h-10">
+                <img src="./access/insagram.jpg" alt="image on screen" class="w-10 h-10">
+            </div>  
+        </div> 
+        
+        <div class="w-1/4 p-4">
+            <h2 class="text-2xl font-bold mb-4 uppercase"> <a href="/">support</a></h2>
+            <ul>
+                <li><a href="">contact us</a></li>
+                <li><a href="">about us</a></li>
+                <li><a href="">career</a></li>
+                <li><a href="">refund and return</a></li>
+                <li><a href="">deliveries</a></li>
+            </ul>
+             
+            </div> 
+        
+        
+            <div class="w-1/4 p-4">
+                <h2 class="text-2xl font-bold mb-4 uppercase"> <a href="/">information</a></h2>
+                <ul>
+                    <li><a href="">advanced search</a></li>
+                    <li><a href="">help & Faq's</a></li>
+                    <li><a href="">store location</a></li>
+                    <li><a href="">orders and returns</a></li>
+                </ul>
+                 
+                </div> 
+        
+        
+                <div class="w-1/4 p-4">
+                    <h2 class="text-2xl font-bold mb-4 uppercase"> <a href="/">contact us</a></h2>
+                    <ul>
+                        <li><a href=""> <img src="./access/address.png" alt="image on screen" class="w-10 h-10">no 50, east massion street 450 basement 4050</a></li>
+                        <li><a href="">advanced search</a></li>
+                        <li><a href=""> <img src="./access/whasap.jpg" alt="image on screen" class="w-10 h-10">+000 506 709 </a></li>
+                        <li><a href="">store location</a></li>
+                        <li><a href=""><img src="./access/message.png" alt="image on screen" class="w-10 h-10">orders and returns</a></li>
+                    </ul>
+                        </div> 
+
+
+
+
+                    
+
+
+
+
+                    <script>
+  
+                        const carouselInner = document.querySelector('.carousel-inner');
+                        const carouselItems = document.querySelectorAll('.carousel-item');
+                        const prevButton = document.querySelector('.prev-button');
+                        const nextButton = document.querySelector('.next-button');
+                        
+                        let currentSlide = 0;
+                        let totalSlides = carouselItems.length;
+                        let images = [
+                          'image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg',
+                          'image5.jpg', 'image6.jpg', 'image7.jpg', 'image8.jpg',
+                          'image9.jpg', 'image10.jpg'
+                        ];
+                        
+                        function showSlide() {
+                          carouselItems.forEach((item, index) => {
+                            item.style.display = index >= currentSlide && index < currentSlide + 4 ? 'block' : 'none';
+                          });
+                        }
+                        
+                        function prevSlide() {
+                          currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                          showSlide();
+                        }
+                        
+                        function nextSlide() {
+                         /* currentSlide = (currentSlide + 1) % totalSlides;*/
+                         if (currentSlide+4 >=totalSlides){
+                          currentSlide = 0;
+                         } else{currentSlide=(currentSlide+ 1) % totalSlides;}
+                         showSlide();
+                        }
+                        
+                        function addNextSlide() {
+                          const newSlide = document.createElement('div');
+                          newSlide.classList.add('carousel-item', 'w-1/4', 'h-full', 'p-4');
+                          const newImage = document.createElement('img');
+                          newImage.src = images[currentSlide + 4];
+                          newImage.alt = `Image ${currentSlide + 4}`;
+                          newImage.classList.add('w-full', 'h-full', 'object-cover');
+                          newSlide.appendChild(newImage);
+                          carouselInner.appendChild(newSlide);
+                          carouselItems = document.querySelectorAll('.carousel-item');
+                          totalSlides = carouselItems.length;
+                        }
+                        
+                        nextButton.addEventListener('click', () => {
+                          nextSlide();
+                          if (currentSlide + 4 >= totalSlides) {
+                            addNextSlide();
+                          }
+                        });
+                        
+                        prevButton.addEventListener('click', prevSlide);
+                        
+                        showSlide();
+                        
+                      </script>
+                      
+
+
+
+    </body>
+    </html>
